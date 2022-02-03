@@ -209,6 +209,7 @@ ul.skills li {
 }
 
 footer {
+  position: fixed;
   font-size: 48px;
   justify-content: center;
 }
@@ -242,6 +243,7 @@ textarea {
 .flex-row {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .space-between {
