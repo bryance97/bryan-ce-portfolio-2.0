@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import { capitalizeFirstLetter } from '../../utils/helpers';
 
 function NavBar(props) {
     const tabs = ['About Me', 'Contact', 'Portfolio', 'Resume'];    
