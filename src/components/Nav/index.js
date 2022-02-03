@@ -1,29 +1,37 @@
 import React, { useEffect } from 'react';
+import { capitalizeFirstLetter } from '../../utils/helpers';
 
+function Nav(props) {
+  const {
+    pages = [],
+    setCurrentPage,
+    currentPage,
+  } = props;
 
-function NavBar(props) {
-    const tabs = ['About Me', 'Contact', 'Portfolio', 'Resume'];    
-    return (
-        <div>
-            <ul id="nav-bar" className="nav navbar">
-                {tabs.map(currentTab => (
-                    <li key={currentTab} >
-                        <a
-                            href={'#' + currentTab.toLowerCase()}
-                            onClick={() => props.handlePageChange(currentTab)}
-                            className={
+  useEffect(() => {
+    document.title = capitalizeFirstLetter(currentPage.name);
+  }, [currentPage]);
 
-                                props.currentPage === currentTab ? `nav-link active text-success` : 'nav-link'
-                            }
-                        >
-                            {currentTab}
-                        </a>
-                    </li>
-                ))
-                }
-            </ul >
-        </div>
-    );
+  return (    
+      <nav>
+        <ul className="flex-row">
+          {pages.map((Page) => (
+            <li
+              className={`mx-5 ${
+                currentPage.name === Page.name && 'navActive'
+                }`}
+              key={Page.name}
+            >
+              <span
+                onClick={() => setCurrentPage(Page)}
+              >
+                {capitalizeFirstLetter(Page.name)}
+              </span>
+            </li>
+          ))}
+        </ul>
+      </nav>
+  );
 }
 
-export default NavBar;
+export default Nav;
