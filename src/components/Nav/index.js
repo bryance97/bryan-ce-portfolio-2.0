@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 
+
 function NavBar(props) {
     const tabs = ['About Me', 'Contact', 'Portfolio', 'Resume'];    
     return (
