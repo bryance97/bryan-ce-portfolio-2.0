@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio-2/static/css/main.c225ad4a.css",
+    "main.js": "/portfolio-2/static/js/main.430b61d1.js",
+    "static/media/Recipe-Generator.jpg": "/portfolio-2/static/media/Recipe-Generator.7ec04c866bce5e482172.jpg",
+    "static/media/run-buddy.jpg": "/portfolio-2/static/media/run-buddy.b57f2b88349c6b77211d.jpg",
+    "static/media/retro-gaming.jpg": "/portfolio-2/static/media/retro-gaming.b44cc39b99bc91cafe3c.jpg",
+    "static/media/PROFILE.jpg": "/portfolio-2/static/media/PROFILE.f3feb4e3f076e54ac026.jpg",
+    "static/media/Employee-Tracker.jpg": "/portfolio-2/static/media/Employee-Tracker.eb05ed4e43ef808a5e25.jpg",
+    "static/media/E-Commerce.jpg": "/portfolio-2/static/media/E-Commerce.48fd445082e64703e7be.jpg",
+    "static/media/cover-image.jpg": "/portfolio-2/static/media/cover-image.410d5bfa448a2e6cdd84.jpg",
+    "static/media/README-Generator.jpg": "/portfolio-2/static/media/README-Generator.317510461554316124d7.jpg",
+    "static/media/noSQL-api.jpg": "/portfolio-2/static/media/noSQL-api.4d5593abed242d03f5d8.jpg",
+    "static/media/pwa-budget.jpg": "/portfolio-2/static/media/pwa-budget.6353c0db91803f5ffdd2.jpg",
+    "static/media/Team-Profile-Generator.jpg": "/portfolio-2/static/media/Team-Profile-Generator.c4ab6ab3de542d0cb20f.jpg",
+    "static/media/techblog.jpg": "/portfolio-2/static/media/techblog.9a26b9842c1c340f10af.jpg",
+    "static/media/weather-dashboard.jpg": "/portfolio-2/static/media/weather-dashboard.cc0bacb043c7ace0761e.jpg",
+    "static/media/Note-Taker.jpg": "/portfolio-2/static/media/Note-Taker.c3bbc5a42fe3ee5e710f.jpg",
+    "index.html": "/portfolio-2/index.html",
+    "main.c225ad4a.css.map": "/portfolio-2/static/css/main.c225ad4a.css.map",
+    "main.430b61d1.js.map": "/portfolio-2/static/js/main.430b61d1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c225ad4a.css",
+    "static/js/main.430b61d1.js"
+  ]
+}
