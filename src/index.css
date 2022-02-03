@@ -9,7 +9,7 @@ main {
   --tertiary: #b12704;
   --light: #fafafa;
   --dark: #799FBA;
-  --darker: #1F3B60;
+  --darker: #0b2241;
   --alpha: rgba(255,255,255,.7);
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
@@ -163,7 +163,7 @@ li {
 }
 
 header {
-  height: 200px;
+  height: 300px;
   position: relative;
   overflow: hidden;
   z-index: 2;
@@ -187,7 +187,7 @@ nav {
   position: relative;
   font-family: 'Aladin', cursive;
   font-size: 2.5rem;
-  margin: 30px 20px;
+  margin: 0px 20px;
 }
 
 nav a:hover {
@@ -209,9 +209,11 @@ ul.skills li {
 }
 
 footer {
-  position: fixed;
+  position:relative;
+  left:0;
+  bottom:0;
+  right:0;
   font-size: 48px;
-  justify-content: center;
 }
 
 footer a {

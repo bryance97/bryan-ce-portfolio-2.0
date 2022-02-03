@@ -8,7 +8,7 @@ function About() {
         <i className="fas fa-user-circle" style={{ fontSize: "96px" }}></i>
         </div>
         <p>
-        I am a recent Rutgers Bootcamp Graduate where I have learend technical skills and how to create web applications using some of the latest technoligies. I am proficient in the following: HTML, CSS, Javascript, Bootstrap, Github and OOP. I am more than ready to get out in the real worl and learn new technologies like Pyton and Ruby. Feel free to contact me if you have anymore questions. Meanwhile, I will keep coding.
+        I am a recent Rutgers Bootcamp Graduate where I have learend technical skills and how to create web applications using some of the latest technoligies. I am proficient in the following: HTML, CSS, Javascript, Bootstrap, Github and OOP. I am more than ready to get out in the real worl and learn new technologies like Pyton and Ruby. Feel free to contact me if you have anymore questions. Meanwhile, I will keep coding. PLEASE CHECKOUT MY LINKS BELOW.
         </p>
       </div>
     </section>

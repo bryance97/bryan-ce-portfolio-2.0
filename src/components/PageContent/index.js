@@ -6,6 +6,7 @@ const PageContent = (props) => {
     <div>
       {props.children}
     </div>
+
   );
 };
 
